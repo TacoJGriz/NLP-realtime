@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/rt_inference.dir/link.d CMakeFiles/rt_inference.dir/main.cpp.o -o rt_inference  /usr/lib/libonnxruntime.so

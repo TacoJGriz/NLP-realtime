@@ -1,0 +1,42 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "snips",
+  "dataset_size": 848623,
+  "description": "",
+  "download_size": 409335,
+  "features": {
+    "utterance": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 1257958,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 765378,
+      "num_examples": 13084,
+      "dataset_name": "snips"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 83245,
+      "num_examples": 1400,
+      "dataset_name": "snips"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
